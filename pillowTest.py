@@ -4,6 +4,11 @@ import os
 import glob
 from PIL import Image
 
+"""
+Rotate 90 degrees the images in the path.
+Resize to 128,128
+There are only images in the path
+"""
 def transformImages(path):
   #for im in glob.glob(os.path.join(path,"*")):
     #print(im)
